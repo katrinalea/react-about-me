@@ -9,7 +9,12 @@ function MainContent(): JSX.Element {
   const numOne = 3;
   const numTwo = 6;
 
-  const threeFavouriteFoods = ["Chocolate", "Noodles", "Pizza"];
+  const threeFavouriteFoods = [
+    "Chocolate",
+    "Noodles",
+    "Pizza",
+    "chicken nuggets",
+  ];
 
   return (
     <main>
@@ -24,7 +29,7 @@ function MainContent(): JSX.Element {
         <h2>Musing of the month ({location.city}, March 2003)</h2>
         <p>
           Q: How much wood could a woodchuck chuck if a woodchuck could chuck
-          wood?
+          wood? LOL!
         </p>
         <p>
           A: A woodchuck would chuck all the wood they could chuck if a
